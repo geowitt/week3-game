@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' href='assets/css/reset.css'/>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'/>
+    
+      <title>Nintendo Character Hangman!</title>
+                  
+    </head>
+
+  <body>
+
+        <canvas id="a" width="500" height="500">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+
+        
+        <div id="wa">
+            <div class="wletters" id="w0"></div>
+            <div class="wletters" id="w1"></div>
+            <div class="wletters" id="w2"></div>
+            <div class="wletters" id="w3"></div>
+            <div class="wletters" id="w4"></div>
+            <div class="wletters" id="w5"></div>
+            <div class="wletters" id="w6"></div>
+            <div class="wletters" id="w7"></div>
+            <div class="wletters" id="w8"></div>
+            <div class="wletters" id="w9"></div>
+            <div class="wletters" id="w10"></div>
+            <div class="wletters" id="w11"></div>
+            <div class="wletters" id="w12"></div>
+            <div class="wletters" id="w13"></div>
+
+            <p id="hangman">Nintendo Character Hangman</p>
+            <br><br>
+            <p id="start">Start</p>
+            <p class="players" id="p1" >One Player</p>
+            <br><br>
+            <p class="players" id="p2" >Two Player</p>
+            <p id="gprompt">
+
+            <input type="text" name="guess" id="g" maxlength="1"><button>Guess!</button>
+                    
+            </p>
+
+        </div>
+
+    <script type='text/javascript' src='assets/jscript/game.js'></script>
+
+  </body>
+
+</html>

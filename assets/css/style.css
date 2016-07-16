@@ -1,0 +1,68 @@
+#a{
+    border:1px solid black;
+    display:inline-block;
+}
+#wa{
+    border:1px solid black;
+    display:inline-block;
+    width:500px;
+    height:500px;
+    vertical-align: top;
+}
+#p1{
+    margin-top:130px;
+}
+
+.players{
+    text-align:center;
+    font-family:"Comic Sans MS",cursive;
+    font-size:36px;
+    cursor:pointer;
+    
+}
+#hangman{
+    text-align:center;
+    margin-top:130px;
+    font-family:"Comic Sans MS", cursive;
+    font-size:46px;
+}
+#start{
+    text-align:center;
+    font-family:"Comic Sans MS",cursive;
+    font-size:36px;
+    cursor:pointer;
+    
+}
+#gprompt{
+	text-align:center;
+    margin-top:200px;
+    display:relative;
+}
+.spaces{
+    height:30px;
+    width:30px;
+    border:1px solid white;
+    display:inline-block;
+    margin-left:12px;
+    margin-top:10px;
+    font-size:36px;
+    font-family:"Comic Sans MS", cursive;
+    color:blue;
+    vertical-align: top;
+    text-align:center;
+}
+.wletters{
+    height:30px;
+    width:30px;
+    border:1px solid black;
+    display:inline-block;
+    margin-left:12px;
+    margin-top:10px;
+    font-size:26px;
+    font-family:"Comic Sans MS", cursive;
+    color:blue;
+    vertical-align: top;
+    text-align:center;
+}
+
+
